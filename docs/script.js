@@ -50,7 +50,7 @@ const observer = new IntersectionObserver((entries) => {
 // Observe all cards and sections
 document.addEventListener('DOMContentLoaded', () => {
     const animatedElements = document.querySelectorAll(
-        '.metric-card, .achievement-card, .leadership-card, .growth-card, .testimonial-card'
+        '.metric-card, .achievement-card, .leadership-card, .growth-card, .testimonial-card, .innovation-card'
     );
     
     animatedElements.forEach((element, index) => {

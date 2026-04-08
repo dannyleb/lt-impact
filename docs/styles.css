@@ -539,6 +539,49 @@ body {
     line-height: 1.7;
 }
 
+/* Leadership Evidence */
+.leadership-evidence {
+    margin-top: var(--spacing-lg);
+    padding: var(--spacing-md);
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+}
+
+.evidence-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    text-align: center;
+    margin-bottom: var(--spacing-md);
+}
+
+.evidence-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: var(--spacing-sm);
+}
+
+.evidence-item {
+    text-align: center;
+    padding: var(--spacing-sm);
+}
+
+.evidence-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--accent-green);
+    line-height: 1.2;
+}
+
+.evidence-label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 0.25rem;
+}
+
 /* Team Impact */
 .team-impact {
     background-color: var(--card-bg);
